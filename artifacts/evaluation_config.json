@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-24T04:50:22+00:00",
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1+cpu",
+    "sentence-transformers": "6.2.0"
+  },
+  "methods": {
+    "A_tfidf": {
+      "scope": "pairwise (IDF fitted on job description + that one resume)",
+      "vectorizer": {
+        "lowercase": "False",
+        "token_pattern": "\\S+",
+        "ngram_range": "(1, 2)",
+        "sublinear_tf": "True",
+        "use_idf": "True",
+        "smooth_idf": "True",
+        "norm": "l2",
+        "min_df": "1",
+        "max_df": "1.0"
+      }
+    },
+    "B_semantic": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "device": "cpu",
+      "max_seq_length": 256,
+      "chunk_tokens": 200,
+      "overlap_tokens": 40,
+      "top_k": 1,
+      "aggregation": "JD-chunk-token-weighted mean of best resume-chunk cosine",
+      "ranked_by": "raw cosine (not clipped)"
+    },
+    "C_combined": {
+      "weights": {
+        "semantic": 0.5,
+        "tfidf": 0.2,
+        "skills": 0.3
+      },
+      "formula": "0.50*max(0,semantic) + 0.20*tfidf + 0.30*required_skill_coverage"
+    }
+  },
+  "metrics": {
+    "k": 3,
+    "relevant_min_label": 2,
+    "gain": "2^label - 1",
+    "discount": "1/log2(position+1)",
+    "aggregate": "macro average over jobs, undefined jobs excluded",
+    "tie_policy_main": "input order = SHA-256 order of candidate id, equal scores (12 decimals) keep it",
+    "tie_bounds": "best/worst: tie groups ordered by label"
+  },
+  "data": {
+    "n_jobs": 5,
+    "n_resumes": 46,
+    "sha256": {
+      "dataset.json": "1e8aa78637391d8aa091f7fc92b1459cd962e9f9ff46286bfda3f0e0571079ae",
+      "labels.csv": "97f3db5439293838de8a259c087e32ca659dd9c4b95345fc92931e5fde4ee3d7",
+      "RUBRIC.md": "0d2ae989c2cc0bc27cdf2ec098445a7389d7aaa9827844925a510710ea7bea6d",
+      "skill_annotations.json": "709ee0c7cbbd3fa4500dbe7f671a48ed45d68045257b94af9a59a34349db0cf0",
+      "skill_dictionary.json": "4220dd1787590fc376327dc9e137d22625b5bbb0ca0165ccfeed3d1c34deb0f1"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+Backend Software Developer
+
+We are seeking a Backend Software Developer to design, develop, test, and maintain reliable backend applications and REST APIs.
+
+Required skills:
+- Python
+- SQL
+- PostgreSQL
+- REST API development
+- Git
+- Data structures and algorithms
+
+Preferred skills:
+- FastAPI
+- Django
+- Docker
+- AWS
+- CI/CD
+- Redis
+- MongoDB
+- Unit testing
+
+Responsibilities include designing backend services, implementing APIs, integrating databases, debugging software, writing maintainable code, collaborating with frontend developers, and testing application functionality.
+
+Candidates should demonstrate their technical skills through relevant projects, internships, or professional experience.

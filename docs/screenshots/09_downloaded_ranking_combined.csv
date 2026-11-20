@@ -1,0 +1,16 @@
+method,rank,candidate_id,status,combined_matching_index,semantic_cosine_raw,tfidf_cosine,required_skill_coverage,required_skills_total,matched_required_skills,missing_required_skills,matched_preferred_skills,warnings
+combined,1,synthetic_resume_05.pdf,ranked,0.715726,0.789524,0.104823,1.000000,5,Python; SQL; PostgreSQL; Docker; REST API,,,
+combined,2,synthetic_resume_06.pdf,ranked,0.642811,0.644247,0.103437,1.000000,5,Python; SQL; PostgreSQL; Docker; REST API,,Kubernetes; AWS; CI/CD,
+combined,3,synthetic_resume_03.pdf,ranked,0.633515,0.642546,0.061207,1.000000,5,Python; SQL; PostgreSQL; Docker; REST API,,,
+combined,4,synthetic_resume_07.pdf,ranked,0.579547,0.528819,0.075690,1.000000,5,Python; SQL; PostgreSQL; Docker; REST API,,,
+combined,5,synthetic_resume_01.pdf,ranked,0.568583,0.638576,0.046473,0.800000,5,Python; SQL; PostgreSQL; Docker,REST API,Kubernetes; AWS,
+combined,6,synthetic_resume_09.pdf,ranked,0.550055,0.688081,0.130074,0.600000,5,Python; SQL; Docker,PostgreSQL; REST API,,
+combined,7,synthetic_resume_04.pdf,ranked,0.514004,0.641876,0.065331,0.600000,5,Python; SQL; Docker,PostgreSQL; REST API,,
+combined,8,long_resume_37_pages.pdf,ranked,0.476639,0.345069,0.020521,1.000000,5,Python; SQL; PostgreSQL; Docker; REST API,,,
+combined,9,synthetic_resume_02.pdf,ranked,0.378390,0.619127,0.044134,0.200000,5,Python,SQL; PostgreSQL; Docker; REST API,,
+combined,10,synthetic_resume_08.pdf,ranked,0.373982,0.601982,0.064957,0.200000,5,Python,SQL; PostgreSQL; Docker; REST API,,
+combined,,blank_page.pdf,excluded_not_scored,,,,,,,,,Only 0 characters of text found (minimum 100). The file is blank or has no usable text. Needs a manual look; the file was not scored.
+combined,,corrupted.pdf,excluded_not_scored,,,,,,,,,Could not open as a PDF (file may be corrupted or not a PDF): Failed to open stream Needs a manual look; the file was not scored.
+combined,,empty_zero_bytes.pdf,excluded_not_scored,,,,,,,,,The file is empty (0 bytes). Needs a manual look; the file was not scored.
+combined,,password_protected_password_is_secret.pdf,excluded_not_scored,,,,,,,,,The PDF is password-protected. Remove the password and upload again. Needs a manual look; the file was not scored.
+combined,,scanned_image_only.pdf,excluded_not_scored,,,,,,,,,"Almost no text found, but the file contains images. It is probably a scanned resume: OCR is required to read it (OCR is not part of this version). Needs a manual look; the file was not scored."

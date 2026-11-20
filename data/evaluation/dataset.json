@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "synthetic": true,
+    "notice": "ALL job descriptions and resumes in this file are invented for this project. No real people, employers or hiring data. Results on this data say nothing about real-world recruitment performance.",
+    "labels_file": "labels.csv",
+    "rubric_file": "RUBRIC.md",
+    "structure": "each resume belongs to exactly one job's candidate pool (resume.job_id)"
+  },
+  "jobs": [
+    {
+      "job_id": "JD-BE",
+      "title": "Backend Software Developer",
+      "description": "Backend Software Developer\nWe are building the services behind a logistics booking platform and need a developer who can own reliable server-side components from design through production.\nRequirements:\n- 2+ years building backend services in Python\n- Strong SQL and PostgreSQL experience\n- Experience containerising services with Docker\n- Designing and building REST APIs\nNice to have:\n- Kubernetes\n- AWS\n- CI/CD pipelines"
+    },
+    {
+      "job_id": "JD-FE",
+      "title": "Frontend Developer",
+      "description": "Frontend Developer\nJoin the web team of an online learning company and turn product designs into fast, accessible interfaces used by thousands of students.\nRequirements:\n- Solid JavaScript and React experience\n- HTML and CSS, including responsive layouts\n- Consuming REST APIs from the browser\n- Git for day-to-day collaboration\nNice to have:\n- TypeScript\n- Next.js\n- Tailwind CSS"
+    },
+    {
+      "job_id": "JD-DA",
+      "title": "Data Analyst",
+      "description": "Data Analyst\nThe commercial team of a retail chain needs an analyst to turn sales and customer data into clear reports that managers use every week.\nRequirements:\n- Advanced SQL for querying and joining large tables\n- Microsoft Excel (pivot tables, formulas)\n- Building dashboards in Tableau\n- Data visualization and clear written reporting\nNice to have:\n- Python (pandas)\n- Power BI\n- Statistics"
+    },
+    {
+      "job_id": "JD-ML",
+      "title": "Machine Learning Engineer",
+      "description": "Machine Learning Engineer\nOur language-technology team builds models that classify and summarise customer support text, and we need an engineer who can take experiments to working services.\nRequirements:\n- Strong Python\n- Hands-on machine learning model development and evaluation\n- Deep learning with PyTorch or TensorFlow\n- Natural language processing\nNice to have:\n- scikit-learn\n- Docker\n- Hugging Face"
+    },
+    {
+      "job_id": "JD-FS",
+      "title": "Full-Stack Developer",
+      "description": "Full-Stack Developer\nA small product startup is looking for a developer who can ship features end to end, from the database to the user interface.\nRequirements:\n- JavaScript on both client and server\n- React for the user interface\n- Node.js and Express for APIs\n- MongoDB\nNice to have:\n- Docker\n- TypeScript\n- AWS"
+    }
+  ],
+  "resumes": [
+    {
+      "resume_id": "BE-01",
+      "job_id": "JD-BE",
+      "profile_type": "strong_match",
+      "text": "Backend developer, 4 years. Built and maintained Python services for a freight marketplace, exposing REST APIs consumed by web and mobile clients. Designed PostgreSQL schemas, wrote and optimised complex SQL queries, and cut report latency by 60%. Packaged every service with Docker and deployed through GitHub Actions pipelines. Mentored two junior developers."
+    },
+    {
+      "resume_id": "BE-02",
+      "job_id": "JD-BE",
+      "profile_type": "strong_match_alias_wording",
+      "text": "Software engineer, 3 years. Day to day: Flask microservices in Python3, data stored in Postgres, hand-tuned SQL for the analytics team, container images built with docker-compose, HTTP/JSON endpoints documented with OpenAPI. Moved the team's deployments to Kubernetes on AWS."
+    },
+    {
+      "resume_id": "BE-03",
+      "job_id": "JD-BE",
+      "profile_type": "relevant_paraphrase_no_named_tools",
+      "text": "Server-side engineer. Spent five years writing the business logic of an online ticketing system in the Python programming language. Designed the relational database, tuned slow queries and managed schema migrations. Packaged releases as container images and exposed them as web services over HTTP that follow resource-oriented design."
+    },
+    {
+      "resume_id": "BE-04",
+      "job_id": "JD-BE",
+      "profile_type": "partial_match",
+      "text": "Python developer, 2 years. Automated reporting jobs and small Flask APIs for an insurance back office. Comfortable writing SQL against MySQL databases. Has used Docker for local development; deployments were handled by the platform team."
+    },
+    {
+      "resume_id": "BE-05",
+      "job_id": "JD-BE",
+      "profile_type": "adjacent_role",
+      "text": "Java backend developer, 5 years. Built Spring Boot services for a retail bank, with Oracle databases and message queues. Deployed to virtual machines managed by the operations group. Looking to move toward Python and cloud-native work."
+    },
+    {
+      "resume_id": "BE-06",
+      "job_id": "JD-BE",
+      "profile_type": "keyword_list_no_evidence",
+      "text": "Skills: Python, SQL, PostgreSQL, Docker, REST API, Kubernetes, AWS, CI/CD, Git, Linux, Flask, Django, FastAPI. Experience: restaurant front-of-house supervisor, 2019-2023. Customer service, cash handling, team scheduling. Currently completing an online certificate."
+    },
+    {
+      "resume_id": "BE-07",
+      "job_id": "JD-BE",
+      "profile_type": "negation",
+      "text": "Frontend-leaning developer, 3 years, building React and TypeScript dashboards. I have not worked with Python, SQL databases or Docker and have no backend experience; my teams handled all server work."
+    },
+    {
+      "resume_id": "BE-08",
+      "job_id": "JD-BE",
+      "profile_type": "describes_role_from_outside",
+      "text": "Technical recruiter. Spent three years hiring backend engineers who know Python, PostgreSQL, Docker and REST API design. Screened candidates on SQL tuning and container deployment, wrote job ads for platform teams and coordinated interview loops with engineering managers."
+    },
+    {
+      "resume_id": "BE-09",
+      "job_id": "JD-BE",
+      "profile_type": "long_relevant_at_end",
+      "text": "Managed a team of 25 associates across two distribution centres and cut order-picking errors by a third through new shift routines.\nNegotiated contracts with regional carriers, tracked delivery performance every week and presented the results to senior management.\nLed the introduction of a new barcode scanning process, trained staff on safety procedures and ran monthly stock audits.\nCoordinated seasonal hiring, built training plans for new starters and handled customer escalations with a calm, structured approach.\nOrganised charity events for the local community and volunteered as a youth football coach for five years.\nCompleted a part-time diploma in business administration while working full time.\nReduced overtime costs by redesigning rosters and introduced a recognition scheme that improved staff retention.\nWorked closely with finance on budgeting, forecasting and quarterly reviews of warehouse spending.\nRepresented the site in supplier meetings, resolved invoice disputes and documented standard operating procedures for every shift.\nChaired the health and safety committee and cut reportable incidents by half over three years.\nPlanned peak-season capacity, balancing temporary staff, equipment hire and delivery windows for major customers.\nBuilt a close working relationship with the local college and ran an apprenticeship scheme for school leavers.\nCareer change, 2022 to present: backend developer at a small logistics software company. Built and maintain Python services behind the shipment-tracking product, exposing REST APIs to the web app. Designed the PostgreSQL schema, write SQL for reporting and package the services with Docker for deployment."
+    },
+    {
+      "resume_id": "FE-01",
+      "job_id": "JD-FE",
+      "profile_type": "strong_match",
+      "text": "Frontend developer, 3 years. Built the student dashboard of an e-learning product in React and JavaScript, with semantic HTML and responsive CSS layouts that pass accessibility audits. Consumed REST APIs and handled loading and error states gracefully. Daily Git workflow with code reviews on pull requests. Introduced TypeScript to the codebase in 2023."
+    },
+    {
+      "resume_id": "FE-02",
+      "job_id": "JD-FE",
+      "profile_type": "strong_match_alias_wording",
+      "text": "UI engineer. ReactJS single-page apps, modern JS (ES6), Next.js for server rendering, layouts with CSS3 grid and Tailwind, HTML5 forms with validation. Talks to backend services through RESTful endpoints. Uses GitHub and trunk-based development."
+    },
+    {
+      "resume_id": "FE-03",
+      "job_id": "JD-FE",
+      "profile_type": "relevant_paraphrase_no_named_tools",
+      "text": "Web interface developer with four years turning designs into interactive pages. Wrote component-based views with a popular declarative UI library, handled form state and data fetching from the company's HTTP services, and made sure pages work on phones and large screens. Used version control with branches and reviews every day."
+    },
+    {
+      "resume_id": "FE-04",
+      "job_id": "JD-FE",
+      "profile_type": "partial_match_with_negation",
+      "text": "Frontend developer, 3 years. React hooks and JavaScript for an internal admin tool, CSS modules for layout, Git on every project. Has built pages in HTML but has not yet integrated with live REST APIs; data came through a mock layer."
+    },
+    {
+      "resume_id": "FE-05",
+      "job_id": "JD-FE",
+      "profile_type": "adjacent_role",
+      "text": "Web developer, 2 years. Built marketing sites with HTML and CSS and added interactivity with JavaScript and jQuery. Worked with designers and tracked tasks in Jira. Currently learning React through a course project."
+    },
+    {
+      "resume_id": "FE-06",
+      "job_id": "JD-FE",
+      "profile_type": "keyword_list_no_evidence",
+      "text": "Core skills: JavaScript | React | HTML | CSS | REST APIs | Git | TypeScript | Next.js | Tailwind CSS. Work history: warehouse operations associate and delivery driver. Completed an online bootcamp certificate in 2024; portfolio in progress."
+    },
+    {
+      "resume_id": "FE-07",
+      "job_id": "JD-FE",
+      "profile_type": "negation",
+      "text": "Backend developer, six years of Java and Spring. I have never built user interfaces and have no experience with JavaScript, React, HTML or CSS; my work is entirely server-side with REST APIs and PostgreSQL."
+    },
+    {
+      "resume_id": "FE-08",
+      "job_id": "JD-FE",
+      "profile_type": "describes_role_from_outside",
+      "text": "UX researcher and product designer. Run usability studies on React-based web apps built by engineering, produce HTML prototypes in design tools and write CSS-aware design specs for developers. Work closely with frontend teams but do not write production code."
+    },
+    {
+      "resume_id": "FE-09",
+      "job_id": "JD-FE",
+      "profile_type": "sparse_ambiguous",
+      "text": "Developer. Worked on web projects using modern tools. Familiar with JS and the usual frontend stack. Available immediately."
+    },
+    {
+      "resume_id": "DA-01",
+      "job_id": "JD-DA",
+      "profile_type": "strong_match",
+      "text": "Data analyst, 3 years in retail. Wrote advanced SQL (joins, window functions) to build weekly sales reports, summarised results in Microsoft Excel pivot tables and published Tableau dashboards used by regional managers. Strong focus on data visualization and plain-language commentary. Used Python and pandas for cleaning."
+    },
+    {
+      "resume_id": "DA-02",
+      "job_id": "JD-DA",
+      "profile_type": "strong_match_alias_wording",
+      "text": "Business intelligence analyst. Queries in T-SQL on MS SQL Server, month-end models in MS Excel with VLOOKUP and pivots, interactive Tableau workbooks, charts and storytelling for executives. Also builds PowerBI reports."
+    },
+    {
+      "resume_id": "DA-03",
+      "job_id": "JD-DA",
+      "profile_type": "relevant_paraphrase_no_named_tools",
+      "text": "Analyst who turns raw transaction records into decision-ready summaries. Pulls data from the company warehouse with database queries, builds spreadsheets with pivot summaries and presents trends through graphs and short written briefs for the commercial team. Two years of experience in a supermarket group."
+    },
+    {
+      "resume_id": "DA-04",
+      "job_id": "JD-DA",
+      "profile_type": "partial_match",
+      "text": "Junior analyst, 1 year. SQL queries and Excel reports for a logistics firm; basic Power BI dashboards. Has not used Tableau. Good at presenting findings."
+    },
+    {
+      "resume_id": "DA-05",
+      "job_id": "JD-DA",
+      "profile_type": "adjacent_role",
+      "text": "Accountant with 6 years in financial reporting. Heavy Excel user (pivot tables, macros) for month-end close and budgeting. Wants to move into analytics; completed an introductory SQL course."
+    },
+    {
+      "resume_id": "DA-06",
+      "job_id": "JD-DA",
+      "profile_type": "keyword_list_no_evidence",
+      "text": "Seeking a data analyst role. Keywords: SQL, Excel, Tableau, Data Visualization, Python, pandas, Power BI, Statistics. Final-year student; coursework only, no projects or internships yet."
+    },
+    {
+      "resume_id": "DA-07",
+      "job_id": "JD-DA",
+      "profile_type": "negation",
+      "text": "Marketing coordinator, 4 years. I do not use SQL or Tableau and have never built dashboards; I send requests to the analytics team and read their Excel summaries."
+    },
+    {
+      "resume_id": "DA-08",
+      "job_id": "JD-DA",
+      "profile_type": "adjacent_role",
+      "text": "Data engineer building pipelines. Maintain Python and Spark ETL jobs that load the warehouse and optimise SQL for loading performance. Do not build reports or dashboards; analysts consume the tables."
+    },
+    {
+      "resume_id": "DA-09",
+      "job_id": "JD-DA",
+      "profile_type": "long_relevant_at_end",
+      "text": "Managed a team of 25 associates across two distribution centres and cut order-picking errors by a third through new shift routines.\nNegotiated contracts with regional carriers, tracked delivery performance every week and presented the results to senior management.\nLed the introduction of a new barcode scanning process, trained staff on safety procedures and ran monthly stock audits.\nCoordinated seasonal hiring, built training plans for new starters and handled customer escalations with a calm, structured approach.\nOrganised charity events for the local community and volunteered as a youth football coach for five years.\nCompleted a part-time diploma in business administration while working full time.\nReduced overtime costs by redesigning rosters and introduced a recognition scheme that improved staff retention.\nWorked closely with finance on budgeting, forecasting and quarterly reviews of warehouse spending.\nRepresented the site in supplier meetings, resolved invoice disputes and documented standard operating procedures for every shift.\nChaired the health and safety committee and cut reportable incidents by half over three years.\nPlanned peak-season capacity, balancing temporary staff, equipment hire and delivery windows for major customers.\nBuilt a close working relationship with the local college and ran an apprenticeship scheme for school leavers.\nSince 2023: junior data analyst at a regional retailer. Write SQL to join sales and stock tables, build Microsoft Excel pivot reports for store managers, publish Tableau dashboards and prepare data visualization and short written summaries every week."
+    },
+    {
+      "resume_id": "DA-10",
+      "job_id": "JD-DA",
+      "profile_type": "unrelated_with_overlap",
+      "text": "Restaurant manager. Weekly stock reports, sales figures checked against the till, kitchen costs tracked in a shared spreadsheet; presented monthly results to the owners."
+    },
+    {
+      "resume_id": "ML-01",
+      "job_id": "JD-ML",
+      "profile_type": "strong_match",
+      "text": "Machine learning engineer, 3 years. Built and evaluated text classifiers for customer tickets in Python, fine-tuned transformer models with PyTorch and measured them with held-out F1 and error analysis. Natural language processing is my main focus; also used scikit-learn baselines and deployed models in Docker containers."
+    },
+    {
+      "resume_id": "ML-02",
+      "job_id": "JD-ML",
+      "profile_type": "strong_match_alias_wording",
+      "text": "Applied scientist. NLP pipelines (tokenisation, NER, summarisation) in Python3; deep nets in Keras on TensorFlow 2; classical ML with sklearn; HuggingFace Transformers for fine-tuning. Evaluated with cross-validation and shipped a FastAPI inference service."
+    },
+    {
+      "resume_id": "ML-03",
+      "job_id": "JD-ML",
+      "profile_type": "relevant_paraphrase_no_named_tools",
+      "text": "Research engineer working on automatic text understanding. Trained neural sequence models to sort and summarise support conversations, ran systematic experiments with held-out test sets and handed validated models to the platform team. Comfortable with the scientific Python stack."
+    },
+    {
+      "resume_id": "ML-04",
+      "job_id": "JD-ML",
+      "profile_type": "partial_match",
+      "text": "Data scientist, 2 years. Python and scikit-learn models for churn prediction and demand forecasting, with careful validation. Strong statistics background. Has only done a small text-mining project and has not trained deep neural networks."
+    },
+    {
+      "resume_id": "ML-05",
+      "job_id": "JD-ML",
+      "profile_type": "adjacent_role",
+      "text": "Backend developer who integrated a third-party sentiment-analysis service into the company's order system. Python Flask services, SQL and Docker. Interested in moving into machine learning; has completed two online courses."
+    },
+    {
+      "resume_id": "ML-06",
+      "job_id": "JD-ML",
+      "profile_type": "keyword_list_no_evidence",
+      "text": "Keywords: Python, Machine Learning, Deep Learning, PyTorch, TensorFlow, NLP, scikit-learn, Hugging Face, Docker, BERT, LLM. Education: B.Com graduate. Experience: sales executive for two years."
+    },
+    {
+      "resume_id": "ML-07",
+      "job_id": "JD-ML",
+      "profile_type": "negation",
+      "text": "Software tester with 5 years of experience in Selenium and unit testing. No experience in machine learning, deep learning or NLP, and I have never trained a model; I only test the web interface that displays model output."
+    },
+    {
+      "resume_id": "ML-08",
+      "job_id": "JD-ML",
+      "profile_type": "describes_role_from_outside",
+      "text": "Product manager for an AI team. Define roadmaps for machine learning, NLP and deep learning features, write requirements for PyTorch-based model services and present model metrics to stakeholders. Do not write model code."
+    },
+    {
+      "resume_id": "ML-09",
+      "job_id": "JD-ML",
+      "profile_type": "sparse_ambiguous",
+      "text": "ML practitioner. Worked on classification tasks and some text projects. Python, notebooks. References on request."
+    },
+    {
+      "resume_id": "FS-01",
+      "job_id": "JD-FS",
+      "profile_type": "strong_match",
+      "text": "Full-stack developer, 3 years. Built a booking app end to end: React interface in JavaScript, Node.js and Express API, MongoDB for data. Wrote the deployment scripts in Docker and deployed on AWS. Comfortable owning a feature from schema to UI."
+    },
+    {
+      "resume_id": "FS-02",
+      "job_id": "JD-FS",
+      "profile_type": "strong_match_alias_wording",
+      "text": "MERN developer. ReactJS front end, NodeJS + ExpressJS REST backend, Mongo for storage, ES6 everywhere, TypeScript on newer services. Containerised with docker-compose."
+    },
+    {
+      "resume_id": "FS-03",
+      "job_id": "JD-FS",
+      "profile_type": "relevant_paraphrase_no_named_tools",
+      "text": "Product engineer who ships features across the stack at a small startup. Wrote interactive browser interfaces with a component library, server endpoints in the same scripting language as the browser, and stored documents in a NoSQL database. Deployments on the cloud."
+    },
+    {
+      "resume_id": "FS-04",
+      "job_id": "JD-FS",
+      "profile_type": "partial_match",
+      "text": "Web developer, 2 years. React front ends in JavaScript and Node.js scripts for build tooling and small Express servers. Data lives in MySQL; has not used MongoDB."
+    },
+    {
+      "resume_id": "FS-05",
+      "job_id": "JD-FS",
+      "profile_type": "adjacent_role_with_negation",
+      "text": "Frontend developer, 4 years: React, JavaScript, CSS, Redux. Backend handled by another team; has not worked with Node.js, Express or databases."
+    },
+    {
+      "resume_id": "FS-06",
+      "job_id": "JD-FS",
+      "profile_type": "keyword_list_no_evidence",
+      "text": "Keywords: JavaScript, React, Node.js, Express, MongoDB, Docker, TypeScript, AWS. Experience: bartender and events staff for three years. Self-taught, learning in the evenings; no projects published."
+    },
+    {
+      "resume_id": "FS-07",
+      "job_id": "JD-FS",
+      "profile_type": "negation",
+      "text": "Embedded C engineer with 7 years in firmware. No web experience at all: I have never used JavaScript, React, Node.js, Express or MongoDB."
+    },
+    {
+      "resume_id": "FS-08",
+      "job_id": "JD-FS",
+      "profile_type": "describes_role_from_outside",
+      "text": "Technical writer documenting a MERN stack platform. Wrote guides for React components, Node.js and Express endpoints and MongoDB schemas, interviewing the developers; I do not write the application code."
+    },
+    {
+      "resume_id": "FS-09",
+      "job_id": "JD-FS",
+      "profile_type": "long_relevant_at_end",
+      "text": "Taught mathematics and computing to students aged 11 to 16 for seven years and led the department's curriculum review.\nPlanned lessons, marked coursework and wrote termly reports for parents, consistently exceeding school progress targets.\nOrganised the annual science fair, coached the school quiz team and supervised a weekly coding club after lessons.\nMentored newly qualified teachers, ran staff training sessions and chaired the pastoral care working group.\nIntroduced a peer-tutoring programme that improved exam results for students who were falling behind.\nManaged the department budget, ordered equipment and coordinated trips to museums and universities.\nCompleted a postgraduate certificate in education and later a part-time evening course in web development.\nVolunteered as a reading helper at the local library and organised a monthly book swap for families.\nWrote lesson resources shared across the district and presented at two regional teaching conferences.\nLed parents' evenings, handled difficult conversations with tact and kept detailed records of student progress.\nCareer change, 2023 to present: full-stack developer at a startup. Build features in JavaScript across the stack: React for the user interface, Node.js with Express for the APIs and MongoDB for storage."
+    }
+  ]
+}

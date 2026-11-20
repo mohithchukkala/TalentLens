@@ -1,0 +1,22 @@
+{
+  "_about": "SYNTHETIC. Hand annotation of a subset of resumes, written BEFORE the skill extractor was run on them. Task: mention-level detection. For each resume, the canonical dictionary skills (names as in data/skill_dictionary.json) that the text mentions in ANY wording, including negated mentions ('have not worked with Python') and mentions by someone who does not use the skill, because the extractor is a dictionary matcher that does not understand negation or roles. Skills outside the dictionary (Figma, OpenAPI, MERN, ...) are not annotated, so recall is measured only against dictionary vocabulary. One annotator, who also wrote the dictionary: no agreement measured.",
+  "annotations": {
+    "BE-02": ["Flask", "Microservices", "Python", "PostgreSQL", "SQL", "Docker", "Kubernetes", "AWS"],
+    "BE-03": ["Python"],
+    "BE-05": ["Java", "Spring Boot", "Oracle Database", "Python"],
+    "BE-06": ["Python", "SQL", "PostgreSQL", "Docker", "REST API", "Kubernetes", "AWS", "CI/CD", "Git", "Linux", "Flask", "Django", "FastAPI"],
+    "BE-07": ["React", "TypeScript", "Python", "SQL", "Docker"],
+    "BE-08": ["Python", "PostgreSQL", "Docker", "REST API", "SQL"],
+    "BE-09": ["Python", "REST API", "PostgreSQL", "SQL", "Docker"],
+    "FE-02": ["React", "JavaScript", "Next.js", "CSS", "Tailwind CSS", "HTML", "REST API", "GitHub"],
+    "FE-09": ["JavaScript"],
+    "DA-02": ["T-SQL", "Microsoft SQL Server", "Excel", "Tableau", "Power BI"],
+    "DA-10": [],
+    "ML-02": ["NLP", "Python", "Keras", "TensorFlow", "Machine Learning", "Scikit-learn", "Hugging Face", "FastAPI"],
+    "ML-06": ["Python", "Machine Learning", "Deep Learning", "PyTorch", "TensorFlow", "NLP", "Scikit-learn", "Hugging Face", "Docker", "BERT", "LLM"],
+    "ML-09": ["Machine Learning", "Python"],
+    "FS-02": ["React", "Node.js", "Express.js", "REST API", "MongoDB", "JavaScript", "TypeScript", "Docker"],
+    "FS-03": ["NoSQL"],
+    "FS-08": ["React", "Node.js", "Express.js", "MongoDB"]
+  }
+}

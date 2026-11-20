@@ -1,0 +1,11 @@
+Backend Software Developer
+We are building the services behind a logistics booking platform and need a developer who can own reliable server-side components from design through production.
+Requirements:
+- 2+ years building backend services in Python
+- Strong SQL and PostgreSQL experience
+- Experience containerising services with Docker
+- Designing and building REST APIs
+Nice to have:
+- Kubernetes
+- AWS
+- CI/CD pipelines

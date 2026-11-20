@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Never commit real resumes or personal data
+data/private/
+data/uploads/
+*.private.pdf
+
+# Model cache is downloaded on demand
+models/

@@ -1,0 +1,8 @@
+# Direct dependencies only, unpinned. Exact tested versions: requirements-lock.txt (see README.md).
+pymupdf
+pandas
+numpy
+scikit-learn
+sentence-transformers
+streamlit
+pytest

@@ -1,0 +1,15 @@
+# Captured from a real run, 2026-10-24. Command used (PowerShell, project folder):
+#   $env:HF_HUB_OFFLINE = "1"; python -m streamlit run app.py --server.headless true --server.port 8601   (started with Start-Process; same as `streamlit run app.py`)
+# Lines below are the server's own output (stdout, then stderr), verbatim, up to the first repeated warning.
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://localhost:8601
+
+2026-10-24 11:59:46.855 Uvicorn server started on localhost:8601
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'sentence-transformers/all-MiniLM-L6-v2'.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1237.70it/s]
+
+[... 7245 further stderr lines omitted by me: 315 repeated blocks 'Examining the path of transformers.* raised:' (315 of them ending in ModuleNotFoundError: No module named 'torchvision'), printed by Streamlit's file watcher after the model libraries were imported. Other error lines in the omitted part: 0. The ranking results were not affected. ...]

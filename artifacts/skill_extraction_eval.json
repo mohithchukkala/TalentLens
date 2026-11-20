@@ -1,0 +1,149 @@
+{
+  "n_resumes": 17,
+  "tp": 88,
+  "fp": 0,
+  "fn": 1,
+  "precision": 1.0,
+  "recall": 0.9887640449438202,
+  "f1": 0.9943502824858756,
+  "per_resume": [
+    {
+      "resume_id": "BE-02",
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "BE-03",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "BE-05",
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "false_positives": [],
+      "false_negatives": [
+        "Oracle Database"
+      ]
+    },
+    {
+      "resume_id": "BE-06",
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "BE-07",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "BE-08",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "BE-09",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "FE-02",
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "FE-09",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "DA-02",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "DA-10",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "ML-02",
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "ML-06",
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "ML-09",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "FS-02",
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "FS-03",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "resume_id": "FS-08",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "false_positives": [],
+      "false_negatives": []
+    }
+  ]
+}

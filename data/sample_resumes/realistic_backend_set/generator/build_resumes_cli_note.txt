@@ -1,0 +1,2 @@
+Regenerate: from this folder run  python build_resumes.py <output folder>   (needs PyMuPDF, already in requirements.txt).
+build_resumes.py writes the 10 PDFs; resume_data.py holds all text. Leftover *.pdf.raw files in the output folder can be deleted.

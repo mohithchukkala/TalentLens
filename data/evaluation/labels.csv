@@ -1,0 +1,47 @@
+resume_id,job_id,label,rationale
+BE-01,JD-BE,3,"Hands-on, in context: Python services, REST APIs, PostgreSQL and SQL, Docker; 4 years exceeds the 2-year minimum."
+BE-02,JD-BE,3,"All required items demonstrated using different wording (Postgres, docker-compose, HTTP/JSON endpoints); also covers two preferred items."
+BE-03,JD-BE,2,"Clearly does the work (Python, relational database tuning, containers, resource-oriented web services) but never confirms the named products PostgreSQL and Docker, so a gap remains."
+BE-04,JD-BE,2,Python and SQL shown; database is MySQL not PostgreSQL; Docker only locally; API work is small. Meets roughly two thirds with gaps.
+BE-05,JD-BE,1,"Adjacent backend experience (services, SQL-like databases) but none of Python, PostgreSQL, Docker named; fewer than half of the requirements evidenced."
+BE-06,JD-BE,1,Lists every required skill but gives no experience that uses them; work history is unrelated. Claims without evidence count as weak.
+BE-07,JD-BE,0,States explicitly that the required backend skills are absent; different specialisation.
+BE-08,JD-BE,0,Hires for the role but does not perform it; skill words appear only as hiring criteria.
+BE-09,JD-BE,3,"Long resume whose first part is unrelated retail operations; the final section shows Python services, REST APIs, PostgreSQL, SQL and Docker (about 2 years)."
+FE-01,JD-FE,3,"All required items demonstrated in context, plus a preferred one (TypeScript)."
+FE-02,JD-FE,3,"Covers JavaScript, React, HTML, CSS, REST consumption and version control (GitHub implies Git) with different wording; two preferred items as well."
+FE-03,JD-FE,2,"Describes the right work (component UI, data fetching, responsive pages, version control) but names neither JavaScript nor React, so the core requirements are implied, not confirmed."
+FE-04,JD-FE,2,"Meets JavaScript, React, HTML/CSS and Git; the REST-consumption requirement is explicitly missing."
+FE-05,JD-FE,1,"Has basics (HTML, CSS, some JavaScript) but not React, REST consumption or Git; fewer than half of the requirements evidenced."
+FE-06,JD-FE,1,Every required skill is listed but no work uses them; a certificate and an unfinished portfolio are the only support.
+FE-07,JD-FE,0,Explicitly lacks the core frontend skills; different specialisation.
+FE-08,JD-FE,0,Works next to the role and knows the vocabulary but states that no production code is written.
+FE-09,JD-FE,1,Too little evidence to confirm anything; hints at relevant work but names nothing verifiable.
+DA-01,JD-DA,3,All four required items demonstrated in context plus two preferred ones.
+DA-02,JD-DA,3,"T-SQL on SQL Server satisfies advanced SQL; Excel, Tableau and visual communication clearly shown; Power BI is a preferred extra."
+DA-03,JD-DA,2,"Right activities (queries, pivot spreadsheets, graphs, briefs) but SQL, Excel and especially the Tableau dashboard requirement are not confirmed by name."
+DA-04,JD-DA,2,"SQL, Excel, reporting and a dashboard tool shown; the specific Tableau requirement is explicitly missing."
+DA-05,JD-DA,1,Strong Excel and reporting background but SQL only from a course and no dashboards or visualization work.
+DA-06,JD-DA,1,All keywords listed but explicitly no projects or work; coursework-level at best.
+DA-07,JD-DA,0,States that the core analyst tasks are done by someone else.
+DA-08,JD-DA,1,"Deep SQL and data skills, but the role is pipelines, with no Excel, Tableau, visualization or reporting."
+DA-09,JD-DA,3,"Long unrelated operations history, then a final section that evidences all four required items in context."
+DA-10,JD-DA,0,Different field; spreadsheet use is unspecified and no required skill is evidenced by name or clear equivalent.
+ML-01,JD-ML,3,All four required items shown in context; also scikit-learn and Docker.
+ML-02,JD-ML,3,"Python, NLP, deep learning on TensorFlow, ML with evaluation all shown; sklearn and Hugging Face as extras. 'PyTorch or TensorFlow' is satisfied by TensorFlow."
+ML-03,JD-ML,2,"Clearly does neural-network NLP with evaluation in Python, but the deep-learning framework (PyTorch or TensorFlow) is not named, so it cannot be confirmed."
+ML-04,JD-ML,2,Python and ML with evaluation solid; NLP only a small project; deep learning explicitly missing. About half to most of the requirements.
+ML-05,JD-ML,1,"Python and Docker only; no model development, deep learning or real NLP work."
+ML-06,JD-ML,1,A long keyword list with an unrelated degree and job history and no evidence of any project.
+ML-07,JD-ML,0,Explicitly lacks all required skills; tests a UI that shows model output.
+ML-08,JD-ML,0,Manages the work and uses its vocabulary but states that no model code is written.
+ML-09,JD-ML,1,"Hints at relevant work but gives too little detail to confirm model development, deep learning or NLP."
+FS-01,JD-FS,3,All four required items shown in one end-to-end project plus two preferred items.
+FS-02,JD-FS,3,All required items present using alias spellings; TypeScript and Docker as extras.
+FS-03,JD-FS,2,"Right shape of work across client, server and a document database but names none of React, Node.js, Express or MongoDB."
+FS-04,JD-FS,2,"JavaScript, React, Node.js and Express shown (server work is modest); MongoDB explicitly missing."
+FS-05,JD-FS,1,"Only the client half (JavaScript, React); server and database requirements are explicitly missing."
+FS-06,JD-FS,1,All keywords listed with no projects and unrelated work history.
+FS-07,JD-FS,0,Explicitly lacks every required skill; different field.
+FS-08,JD-FS,0,Documents the stack but is not a developer; the skills appear only as subject matter.
+FS-09,JD-FS,3,Long teaching history first; the final section evidences all four required items (about 2 years).
